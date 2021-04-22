@@ -3,7 +3,7 @@
 # Decompiled from: Python 2.7.17 (default, Dec  5 2019, 10:45:36) 
 # [GCC 4.2.1 Compatible Android (5220042 based on r346389c) Clang 8.0.7 (https://
 # Embedded file name: <Ahmad_Riswanto>
-import os, socket, sys, time, mechanize, itertools, datetime, random, hashlib, re, threading, json, getpass, urllib, cookielib
+import os, socket, sys, pyfiglet, time, mechanize, itertools, datetime, random, hashlib, re, threading, json, getpass, urllib, cookielib
 from multiprocessing.pool import ThreadPool
 from urllib2 import *
 try:
@@ -38,26 +38,15 @@ def ngetik(z):
         sys.stdout.flush()
         time.sleep(0.03)
 
+def banner():
+    print('\033[34;1m')
+    logo = pyfiglet.figlet_format('Mr-Robot')
+    print(logo)
+    print('\t\033[37;1m[\033[41;1m FACEBOOK ACCOUNT CLONING \033[00;1m\033[37;1m ]\n')
+    print('\033[32;1mCreator \033[37;1m: \033[33;1mSayyed-Zakarya')
+    print('\033[32;1mVersion \033[37;1m: \033[33;1m1.0')
 
-logo """
-«-----------------\033[1;91mMR-ROBOT\033[1;95m-----------------»
-╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋ 
-╭━╮╭━╮╋╋╋╋╋╋━━━╮╋╋╋╮╋╋╋╋╋╭╮╋ 
-┃┃╰╯┃┃╋╋╋╋╋╋╭━╮┃╋╋╋┃╋╋╋╋╋╯╰╮
-┃╭╮╭╮┃━╮╋╋╋╋╰━╯┃━━╮╰━╮━━╮╮╭╯ 
-┃┃┃┃┃┃╭╯━━━╮╭╮╭╯╭╮┃╭╮┃╭╮┃┃┃╋ 
-┃┃┃┃┃┃┃╋━━━╯┃┃╰╮╰╯┃╰╯┃╰╯┃┃╰╮ 
-╰╯╰╯╰╯╯╋╋╋╋╋╯╰━╯━━╯━━╯━━╯╰━╯ 
-╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋ 
-╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋                      
- ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇
-▇▇\033[1;95m           Wellcome To Mr-Robot.      \033[1;93m▇▇
-▇▇\033[1;91m             👇Tool Using Tips👇      \033[1;93m▇▇
-▇▇\033[1;92m            Tool Update EveryDay      \033[1;93m▇▇
-▇▇\033[1;92m        Termux Data Clear EveryDay    \033[1;93m▇▇
-▇▇\033[1;92m      WhatsApp  Num +923472860857  \033[1;93m▇▇
- ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇")
-\033[1;97m✮❂❂❂❂❂❂❂❂❂❂❂❂✮\033[1;91mMR-ROBOT\033[1;97m✮❂❂❂❂❂❂❂❂❂❂❂❂✮"""
+
 back = 0
 threads = []
 berhasil = []
@@ -137,7 +126,7 @@ def token():
     print logo
     toke = raw_input('\x1b[37;1m[\x1b[32;1m*\x1b[37;1m] \x1b[34;1minput token\x1b[33;1m: \x1b[37;1m')
     if toke == '':
-        print 'Isi Token Fb'
+        print 'Past Token Fb'
         time.sleep(1)
         token()
     try:
