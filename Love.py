@@ -101,7 +101,7 @@ def kk():
 def asup():
     milih = raw_input('\x1b[32;1mSelect\x1b[37;1m#\x1b[34;1mmenu\x1b[32;1m~  \x1b[37;1m')
     if milih == '':
-        print (' Don't be Empty')
+        print '\x1b[37;1m{\x1b[31;1m!\x1b[37;1m} Dont be Empty'
         time.sleep(2)
         masuk()
     elif milih == '1' or milih == '01':
