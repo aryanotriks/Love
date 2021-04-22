@@ -2,8 +2,8 @@
 # Python bytecode 2.7
 # Decompiled from: Python 2.7.17 (default, Dec  5 2019, 10:45:36) 
 # [GCC 4.2.1 Compatible Android (5220042 based on r346389c) Clang 8.0.7 (https://
-# Embedded file name: <Ahmad_Riswanto>
-import os, socket, sys, pyfiglet, time, mechanize, itertools, datetime, random, hashlib, re, threading, json, getpass, urllib, cookielib
+# Embedded file name: <Sayyed_Zakarya>
+import os, socket, sys, time, mechanize, itertools, datetime, random, hashlib, re, threading, json, getpass, urllib, cookielib
 from multiprocessing.pool import ThreadPool
 from urllib2 import *
 try:
@@ -38,13 +38,20 @@ def ngetik(z):
         sys.stdout.flush()
         time.sleep(0.03)
 
-def banner():
-    print('\033[34;1m')
-    logo = pyfiglet.figlet_format('Mr-Robot')
-    print(logo)
-    print('\t\033[37;1m[\033[41;1m FACEBOOK ACCOUNT CLONING \033[00;1m\033[37;1m ]\n')
-    print('\033[32;1mCreator \033[37;1m: \033[33;1mSayyed-Zakarya')
-    print('\033[32;1mVersion \033[37;1m: \033[33;1m1.0')
+logo = """
+╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋
+╭━╮╭━╮╋╋╋╋╋╋━━━╮╋╋╋╮╋╋╋╋╋╭╮╋
+┃┃╰╯┃┃╋╋╋╋╋╋╭━╮┃╋╋╋┃╋╋╋╋╋╯╰╮
+┃╭╮╭╮┃━╮╋╋╋╋╰━╯┃━━╮╰━╮━━╮╮╭╯
+┃┃┃┃┃┃╭╯━━━╮╭╮╭╯╭╮┃╭╮┃╭╮┃┃┃╋
+┃┃┃┃┃┃┃╋━━━╯┃┃╰╮╰╯┃╰╯┃╰╯┃┃╰╮
+╰╯╰╯╰╯╯╋╋╋╋╋╯╰━╯━━╯━━╯━━╯╰━╯
+╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋
+╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋
+ \033[37;1m[\033[41;1m FACEBOOK ACCOUNT CLONING \033[00;1m\033[37;1m ]\n
+ \033[32;1mCreator \033[37;1m: \033[33;1mSayyed-Zakarya
+ \033[32;1mVersion \033[37;1m: \033[33;1m1.0
+"""
 
 
 back = 0
