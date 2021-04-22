@@ -101,7 +101,7 @@ def kk():
 def asup():
     milih = raw_input('\x1b[32;1mSelect\x1b[37;1m#\x1b[34;1mmenu\x1b[32;1m~  \x1b[37;1m')
     if milih == '':
-        print '\x1b[37;1m{\x1b[31;1m!\x1b[37;1m} Don't be Empty'
+        print (' Don't be Empty')
         time.sleep(2)
         masuk()
     elif milih == '1' or milih == '01':
@@ -229,7 +229,7 @@ def donasi():
     print logo
     print 'Opens Chrome'
     time.sleep(1)
-    os.system('xdg-open https://saweria.co/Ariszulwafa')
+    os.system('xdg-open https://www.facebook.com/sayyed.302/')
     menu()
 
 
