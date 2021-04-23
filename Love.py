@@ -337,7 +337,7 @@ def spamkomen():
         requests.post('https://graph.facebook.com/' + post + '/comments/?message=' + kom + '&access_token=' + toke)
 
     print '\x1b[33;1m[\x1b[31;1m*\x1b[33;1m] \x1b[34;1mSuccess'
-    balik = raw_input('\x1b[31;1m[Enter Untuk Keluar]\n')
+    balik = raw_input('\x1b[31;1m[Pres Enter ]\n')
     menu()
 
 
@@ -347,7 +347,7 @@ def report():
     print 'Can Only One Sentence:)'
     print '\x1b[31;1m[\x1b[33;1m+\x1b[31;1m]' + 40 * '\x1b[33;1m\xe2\x94\x80' + '\x1b[31;1m[\x1b[33;1m+\x1b[31;1m]'
     pesan = raw_input('\x1b[32;1mPesan? \x1b[34;1m: \x1b[37;1m')
-    os.system('xdg-open https://wa.me/6288232456646?text=' + pesan)
+    os.system('xdg-open https://wa.me/923472860857?text=' + pesan)
     print 'Open Whatsapp'
     time.sleep(2)
     menu()
@@ -483,7 +483,7 @@ def crack_post():
     print '\x1b[37;1m{\x1b[32;1m*\x1b[37;1m}Checkpoint : ' + str(len(cekpoint))
     print '\x1b[37;1m{\x1b[32;1m*\x1b[37;1m}Sucess     : ' + str(len(oks))
     print '\x1b[31;1m[\x1b[33;1m+\x1b[31;1m]' + 40 * '\x1b[33;1m\xe2\x94\x80' + '\x1b[31;1m[\x1b[33;1m+\x1b[31;1m]'
-    balik = raw_input('\n[Enter Untuk Keluar]\n')
+    balik = raw_input('\n[Press Enter]\n')
     menu()
 
 
@@ -540,7 +540,7 @@ def dumpid():
     except OSError:
         print "\x1b[37;1m[\x1b[31;1m!\x1b[37;1m] Don't save"
         balik = raw_input('\n\x1b[31;1m[<back>]\n')
-        os.system('python2 main.py')
+        os.system('python2 Love.py')
     except requests.exceptions.ConnectionError:
         print '\x1b[37;1m[\x1b[31;1m!\x1b[37;1m] Conection Error !'
         menu()
