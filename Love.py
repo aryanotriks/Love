@@ -79,7 +79,7 @@ def masuk():
     print '\x1b[37;1m[\x1b[32;1m01\x1b[37;1m] \x1b[34;1mlogin using token'
     print '\x1b[37;1m[\x1b[32;1m02\x1b[37;1m] \x1b[34;1mtutorial for token'
     print '\x1b[37;1m[\x1b[32;1m03\x1b[37;1m] \x1b[34;1mupdate tools'
-    print '\x1b[37;1m[\x1b[32;1m04\x1b[37;1m] \x1b[34;1mfollow fp'
+    print '\x1b[37;1m[\x1b[32;1m04\x1b[37;1m] \x1b[34;1mfollow Mr-Robot On Fb'
     print '\x1b[37;1m[\x1b[31;1m00\x1b[37;1m] \x1b[34;1mexit'
     print '\x1b[31;1m[\x1b[33;1m+\x1b[31;1m]' + 30 * '\x1b[33;1m=' + '\x1b[31;1m[\x1b[33;1m+\x1b[31;1m]'
     asup()
@@ -187,7 +187,7 @@ def tutor():
     if cuk == '1' or cuk == '01':
         print 'Opens Youtube'
         time.sleep(1)
-        os.system('xdg-open https://www.youtube.com/channel/UCzCZ1fHCMM6xjSfQOZFEmqg')
+        os.system('xdg-open https://youtu.be/gp0SO-pKcc4')
         masuk()
     elif cuk == '2' or cuk == '02':
         masuk()
