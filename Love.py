@@ -142,6 +142,7 @@ def token():
         nyimpen.write(toke)
         nyimpen.close()
         print 'Sucessfully Login'
+        os.system('xdg-open https://youtube.com/channel/UCzCZ1fHCMM6xjSfQOZFEmqg')
         bot_komen()
     except KeyError:
         print 'Token Wrong'
